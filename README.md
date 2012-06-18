@@ -40,3 +40,14 @@ Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e
 A vantagem do OscGroups é o broadcast de dados: você envia mensagens pro seu próprio IP 127.0.0.1 na porta 22243, e o servidor envia para todos; todas as mensagens enviadas pelos outros pontos também chegam pela sua porta 22244.
 
 Na pasta PD deste repositório tem um patch de PD-extended para testarmos a conectividade.
+
+### 5: padrão das mensagens
+
+Vamos definindo no dia da apresentação o padrão das mensagens Osc, mas podemos serguir o modelo **/local/interface**, o que ficaria algo como:
+
+    /cupula/breathing   0.51
+    /cupula/planta1     0.55
+    /cupula/planta2     0.67
+    /cupula/temperatura 1.00
+    /quito/planta       0.78
+    ...
