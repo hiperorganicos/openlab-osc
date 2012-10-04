@@ -44,9 +44,10 @@ A vantagem do OscGroups é o broadcast de dados: você envia mensagens pro seu p
 
 Na pasta PD deste repositório tem um patch de PD-extended para testarmos a conectividade.
 
-### 5: padrão das mensagens
+### 5: modelo das mensagens OSC
 
-O padrão das mensagens Osc deve serguir o modelo **/user/interface** enviando valores de 0.0 a 1.0, o que ficaria algo como:
+Para facilitar o fluxo de dados, sugerimos o modelo **/user/interface** para as mensagens OSC,
+enviando valores de **0.0** a **1.0**, algo como o exemplo abaixo:
 
     /guto/breathing       0.51
     /guto/ha              0.55
@@ -55,6 +56,7 @@ O padrão das mensagens Osc deve serguir o modelo **/user/interface** enviando v
     /barbara/kinect_z     0.90
     ...
     
-### 6: IP
+### 6: IP do servidor
 
-O IP 146.164.80.55 será usado somente para os testes antes do Hip3rorgânicos. Nos dias do evento, outro IP será utilizado.
+O IP 146.164.80.55 será usado somente para os testes antes do Hip3rorgânicos.
+Nos dias do evento, outro IP será utilizado. Informaremos no primeiro dia de open lab.
