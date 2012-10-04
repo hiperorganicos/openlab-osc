@@ -1,4 +1,7 @@
-# Hip3rorgânicos
+# Hip3rorgânicos OSC
+Arquivos e instruções básicas para o setup da conectividade OSC (Open Sound Control) que será utilizada no open lab
+
+---
 
 ### 1: download do OscGroups
 
@@ -54,4 +57,4 @@ O padrão das mensagens Osc deve serguir o modelo **/user/interface**, o que fic
     
 ### 6: IP
 
-O IP 146.164.80.55 será usado somente para os testes antes do Hip3rorgânicos. Nos dias do evento, outro IP será informado.
+O IP 146.164.80.55 será usado somente para os testes antes do Hip3rorgânicos. Nos dias do evento, outro IP será utilizado.
