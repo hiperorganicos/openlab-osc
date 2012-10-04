@@ -40,7 +40,8 @@ Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e
     
 ### 4: testando conectividade
 
-A vantagem do OscGroups é o broadcast de dados: você envia mensagens pro seu próprio IP 127.0.0.1 na porta 22243, e o servidor envia para todos; todas as mensagens enviadas pelos outros pontos também chegam pela sua porta 22244.
+A vantagem do OscGroups é o broadcast de dados: você envia mensagens pro seu próprio IP 127.0.0.1 na porta 22243,
+e o servidor envia para todos os pontos conectados; assim como todas mensagens enviadas pelos outros pontos chegam pra você na porta 22244.
 
 Na pasta PD deste repositório tem um patch de PD-extended para testarmos a conectividade.
 
