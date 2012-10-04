@@ -29,13 +29,13 @@ Pelo prompt de comando, acesse o diretorio onde os binarios foram extraidos e ab
 
     > cd Downloads
     > cd oscgroups
-    > OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiperorganicos cupula2012
+    > OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
     
 ##### Mac e Ubuntu
 
 Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e password, que voces vao escolher)
 
-    $ OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiperorganicos cupula2012
+    $ OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
     
     
 ### 4: testando conectividade
