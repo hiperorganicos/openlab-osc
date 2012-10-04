@@ -1,4 +1,4 @@
-# Hiperorgânicos - Cúpula dos Povos
+# Hip3rorgânicos
 
 ### 1: download do OscGroups
 
@@ -43,11 +43,15 @@ Na pasta PD deste repositório tem um patch de PD-extended para testarmos a cone
 
 ### 5: padrão das mensagens
 
-Vamos definindo no dia da apresentação o padrão das mensagens Osc, mas podemos serguir o modelo **/local/interface**, o que ficaria algo como:
+O padrão das mensagens Osc deve serguir o modelo **/user/interface**, o que ficaria algo como:
 
-    /cupula/breathing   0.51
-    /cupula/planta1     0.55
-    /cupula/planta2     0.67
-    /cupula/temperatura 1.00
-    /quito/planta       0.78
+    /guto/breathing       0.51
+    /guto/ha              0.55
+    /barbara/kinect_x     0.67
+    /barbara/kinect_y     1.00
+    /barbara/kinect_z     0.90
     ...
+    
+### 6: IP
+
+O IP 146.164.80.55 será usado somente para os testes antes do Hip3rorgânicos. Nos dias do evento, outro IP será informado.
