@@ -46,7 +46,7 @@ Na pasta PD deste repositório tem um patch de PD-extended para testarmos a cone
 
 ### 5: padrão das mensagens
 
-O padrão das mensagens Osc deve serguir o modelo **/user/interface**, o que ficaria algo como:
+O padrão das mensagens Osc deve serguir o modelo **/user/interface** enviando valores de 0.0 a 1.0, o que ficaria algo como:
 
     /guto/breathing       0.51
     /guto/ha              0.55
