@@ -30,8 +30,6 @@
 #X text 448 170 nome da mensagem;
 #X text 344 -74 <-- plugue seu arduino aqui;
 #X text -73 178 OSC;
-#X text -76 -48 OscGroupClient 146.164.80.55 22242 22241 22243 22244
-<username> <password> hiperorganicos cupula2012;
 #X text -76 -78 abra o terminal e o OscGroupClient com os parâmetros:
 ;
 #X obj 271 530 route /cupula/cacto;
@@ -40,9 +38,11 @@
 #X floatatom 415 564 10 0 0 0 - - -;
 #X msg 299 172 send /cupula/planta1 \$1;
 #X msg 150 173 send /cupula/planta2 \$1;
+#X text -76 -48 OscGroupClient 146.164.80.55 22242 22241 22243 22244
+<username> <password> hiperorganicos funarte2012;
 #X connect 0 0 11 0;
-#X connect 0 0 33 0;
-#X connect 0 0 35 0;
+#X connect 0 0 32 0;
+#X connect 0 0 34 0;
 #X connect 0 0 15 0;
 #X connect 2 0 1 0;
 #X connect 3 0 1 0;
@@ -52,9 +52,9 @@
 #X connect 11 0 12 0;
 #X connect 21 0 23 0;
 #X connect 22 0 21 0;
-#X connect 23 0 37 0;
-#X connect 33 0 34 0;
-#X connect 35 0 36 0;
+#X connect 23 0 36 0;
+#X connect 32 0 33 0;
+#X connect 34 0 35 0;
+#X connect 36 0 1 0;
+#X connect 36 0 4 0;
 #X connect 37 0 1 0;
-#X connect 37 0 4 0;
-#X connect 38 0 1 0;

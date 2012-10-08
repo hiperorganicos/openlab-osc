@@ -31,10 +31,10 @@
 #X text 448 170 nome da mensagem;
 #X text 344 -74 <-- plugue seu arduino aqui;
 #X text -73 178 OSC;
-#X text -76 -48 OscGroupClient 146.164.80.55 22242 22241 22243 22244
-<username> <password> hiperorganicos cupula2012;
 #X text -76 -78 abra o terminal e o OscGroupClient com os parâmetros:
 ;
+#X text -76 -48 OscGroupClient 146.164.80.55 22242 22241 22243 22244
+<username> <password> hiperorganicos funarte2012;
 #X connect 0 0 11 0;
 #X connect 0 0 15 0;
 #X connect 2 0 1 0;
