@@ -27,15 +27,15 @@ Vamos usa as portas padrão do OscGroups, de 22241 a 22244
 
 Pelo prompt de comando, acesse o diretorio onde os binarios foram extraidos e abra o cliente com exatamente estes parametros (exceto username e password, que voces vao escolher)
 
-    > cd Downloads
-    > cd oscgroups
-    > OscGroupClient 200.129.81.132 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
+    cd Downloads
+    cd oscgroups
+    OscGroupClient 200.129.81.132 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
     
 ##### Mac e Ubuntu
 
 Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e password, que voces vao escolher)
 
-    $ OscGroupClient 200.129.81.132 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
+    OscGroupClient 200.129.81.132 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
     
     
 ### 4: testando conectividade
