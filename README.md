@@ -29,18 +29,18 @@ Pelo prompt de comando, acesse o diretorio onde os binarios foram extraidos e ab
 
     cd Downloads
     cd oscgroups
-    OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
+    OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos nano
     
 ##### Mac e Ubuntu
 
 Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e password, que voces vao escolher)
 
-    OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
+    OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos nano
     
     
 ### 4: testando conectividade
 
-A vantagem do OscGroups é o broadcast de dados: você envia mensagens pro seu próprio IP 127.0.0.1 na porta 22243,
+A vantagem do OscGroups é o broadcast de dados: você envia mensagens pro seu próprio IP 127.0.0.1 / localhost na porta 22243,
 e o servidor envia para todos os pontos conectados; assim como todas mensagens enviadas pelos outros pontos chegam pra você na porta 22244.
 
 Na pasta PD deste repositório tem um patch de PD-extended para testarmos a conectividade.
@@ -59,4 +59,4 @@ enviando valores de **0.0** a **1.0**, algo como o exemplo abaixo:
     
 ### 6: IP / Domínio
 
-#### 200.129.81.132 / hiperorganicos.tk
+#### hiperorganicos.tk
