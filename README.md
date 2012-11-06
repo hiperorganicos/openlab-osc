@@ -1,4 +1,4 @@
-# Hip3rorgânicos OSC
+# Hiperorgânicos OSC
 Arquivos e instruções básicas para o setup da conectividade OSC (Open Sound Control) que será utilizada no open lab
 
 ---
