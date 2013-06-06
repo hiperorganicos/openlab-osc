@@ -29,13 +29,13 @@ Pelo prompt de comando, acesse o diretorio onde os binarios foram extraidos e ab
 
     cd Downloads
     cd oscgroups
-    OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos nano
+    OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiper4 nano
     
 ##### Mac e Ubuntu
 
 Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e password, que voces vao escolher)
 
-    OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos nano
+    OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiper4 nano
     
     
 ### 4: testando conectividade
@@ -59,4 +59,4 @@ enviando valores de **0.0** a **1.0**, algo como o exemplo abaixo:
     
 ### 6: IP / Domínio
 
-#### hiperorganicos.tk
+#### 146.164.80.55
