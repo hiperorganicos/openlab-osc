@@ -1,0 +1,8 @@
+on run
+	set path_ to (path to me as string)
+	display dialog "Digite o seu login para entrar na rede do open lab" default answer "" with title "Hiperorganicos OSC" with icon 2
+	set username to text returned of result
+	#display dialog username & " " & path_
+	tell application "Finder" to set currentDir to (target of front Finder window) as text
+	do shell script "cd " & (quoted form of POSIX path of currentDir) & ";./OscGroupClient 146.164.80.55 22242 22241 22243 22244 " & username & " 123 hiper4 nano"
+end run
