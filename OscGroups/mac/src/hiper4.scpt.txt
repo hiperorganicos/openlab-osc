@@ -4,5 +4,9 @@ on run
 	set username to text returned of result
 	#display dialog username & " " & path_
 	tell application "Finder" to set currentDir to (target of front Finder window) as text
-	do shell script "cd " & (quoted form of POSIX path of currentDir) & ";./OscGroupClient 146.164.80.55 22242 22241 22243 22244 " & username & " 123 hiper4 nano"
+	#do shell script "cd " & (quoted form of POSIX path of currentDir) & ";../OscGroupClient 146.164.80.56 22242 22241 22243 22244 " & username & " 123 hiper4 nano"
+	tell application "Terminal"
+		do script "cd " & (quoted form of POSIX path of currentDir) & ";./OscGroupClient 146.164.80.56 22242 22241 22243 22244 " & username & " 123 hiper4 nano"
+		activate
+	end tell
 end run

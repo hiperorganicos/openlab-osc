@@ -53,13 +53,13 @@ Pelo prompt de comando, acesse o diretorio onde os binarios foram extraidos e ab
 
     > cd Downloads
     > cd oscgroups
-    > OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
+    > OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
     
 ##### Mac e Ubuntu
 
 Pelo terminal, abra o cliente com exatamente estes parametros (exceto username e password, que voces vao escolher)
 
-    $ OscGroupClient 146.164.80.55 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
+    $ OscGroupClient hiperorganicos.tk 22242 22241 22243 22244 <username> <password> hiperorganicos funarte2012
     
     
 ### 4. testando conectividade
@@ -80,8 +80,4 @@ enviando valores de **0.0** a **1.0**, algo como o exemplo abaixo:
     /barbara/kinect_y     1.00
     /barbara/kinect_z     0.90
     ...
-    
-### 6. IP do servidor
-
-O IP 146.164.80.55 será usado somente para os testes antes do Hip3rorgânicos.
-Nos dias do evento, outro IP será utilizado. Informaremos no primeiro dia de open lab.
+    /user/process         1.00
