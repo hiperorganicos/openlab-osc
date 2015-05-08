@@ -12,7 +12,7 @@ void setup() {
   size(640, 480);
   smooth();
   noStroke();
-  osc_receiver = new OscP5(this, receive_port);
+  osc_receiver = new OscP5(this, receiver_port);
 }
 
 void oscEvent(OscMessage msg) {
