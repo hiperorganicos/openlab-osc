@@ -28,7 +28,7 @@ void setup() {
    * and the port of the remote location address are the same, hence you will
    * send messages back to this sketch.
    */
-  myRemoteLocation = new NetAddress("127.0.0.1", 22243);
+  myRemoteLocation = new NetAddress("127.0.0.1", 22244);
 }
 
 
@@ -69,10 +69,10 @@ void oscEvent(OscMessage msg) {
 
   float val = msg.get(0).floatValue();
 
-  if (addr.equals("/terrario/planta")) {
+  if (addr.equals("/test/mousex")) {
     x = val;
   }
-  else if (addr.equals("/terrario/luz")) {
+  else if (addr.equals("/test/mousey")) {
     y = val;
   }
   
