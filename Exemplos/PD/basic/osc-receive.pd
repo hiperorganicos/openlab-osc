@@ -1,0 +1,16 @@
+#N canvas 251 5 932 691 10;
+#X declare -lib mrpeach;
+#X obj -3 -58 import mrpeach;
+#X text 135 -60 recebendo;
+#X text 135 -46 da rede;
+#X obj 139 11 unpackOSC;
+#X obj 139 -21 udpreceive 22244;
+#X obj 175 51 print rede;
+#X text 146 88 Prints only this route;
+#X text 176 35 Prints every message;
+#X obj 139 103 route /hiperbot/temp;
+#X obj 139 136 print Hiperbot;
+#X connect 3 0 5 0;
+#X connect 3 0 8 0;
+#X connect 4 0 3 0;
+#X connect 8 0 9 0;
