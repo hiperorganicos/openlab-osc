@@ -9,14 +9,19 @@ Arquivos e instruções básicas para a conectividade OSC (Open Sound Control) u
 
 ### O sistema OscGroups
 
-Usamos o OscGroups por ser um sistema que facilita o multicast de dados entre os usuários. Quando o `OscGroupClient` (cliente) está conectado a um `OscGroupServer` (no caso, o servidor do NANO), todas as mensagens que você envia para seu endereço local (localhost ou 127.0.0.1) na porta 22243, é enviada para o servidor e todos os outros clientes conectados; assim como todas mensagens enviadas pelos outros pontos chegam pra você na porta 22244.
+Usamos o OscGroups por ser um sistema que facilita o multicast de dados entre os usuários. Quando o `OscGroupClient` (cliente) está rodando conectado a um `OscGroupServer` (no caso, o servidor do NANO), todas as mensagens que você envia para seu endereço local (localhost ou 127.0.0.1) na porta 22243, são enviadas para o servidor e a todos os outros clientes conectados, assim como todas mensagens enviadas pelos outros clientes chegam pra você na porta 22244. Confira os exemplos básicos de PD de envio e recebimento de dados.
+
+Esquema de funcionamento:
+
+<img src="https://raw.githubusercontent.com/hiperorganicos/openlab-osc/master/imagens/osc_schematic.png" alt="">
+
 
 > OSCgroups is a system for routing OSC messages between a group of collaborating users. It is designed to make joining and leaving a group simple, and to overcome the problem of connecting multiple users behind different NAT routers using a NAT traversal server with the usual “NAT hole punching” scheme (you can put that into google for more info). OSCgroups also implements basic group functionality similar to the concept of channels in internet relay chat. You can read the README file for more info.
 > <http://www.rossbencina.com/code/oscgroups>
 
 	update 17/07/2013: conectividade facilitada
 
-## Conectividade facilitada (Mac e Windows)
+## Conectividade facilitada (RECOMENDADO!) (Mac e Windows)
 
 Para simplificar o processo de conexão, criamos scripts de conexão: o arquivo applescript `hiper4.app` para plataforma OS X e o arquivo `hiper4.bat` para plataforma Windows.
 
